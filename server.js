@@ -18,11 +18,10 @@ var bodyParser = require('body-parser');
 var morgan     = require('morgan');
 var msg        = require('gulp-messenger');
 var cors       = require('cors');
-var utils      = require('./app/lib/cd-utils');
 
 var app        = express();
 var port       = process.env.PORT || 3000;
-var appName    = config.defaults.appName|| 'App Name';
+var appName    = config.defaults.appName || 'BE Boilerplate (Node/Express)';
 
 console.log('\n');
 msg.Warning('=',appName,'=');

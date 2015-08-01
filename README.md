@@ -1,5 +1,4 @@
-express-server
-==============
+# be-boilerplate
 
 # Introduction
 
