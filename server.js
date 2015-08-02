@@ -46,7 +46,6 @@ app.use(function(res, req, next) {
 // =============================================================================
 // NOTE: We are not using database yet so we arent callling this code
 
-
 //var mongoose = require('mongoose');
 //mongoose.connect(connection.database.url); // connect to our database
 //msg.Success('Connected to ' + connection.database.url);

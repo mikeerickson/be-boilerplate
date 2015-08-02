@@ -8,9 +8,9 @@
 module.exports = {
 
   defaults: {
-    src:         ['/**/*.js'],
-    appName:     'Node / Express Server Boilerplate',
-    port: 3000
-  },
+    src:        ['./app/**/*.js'],
+    appName:    'Node / Express Server Boilerplate',
+    port:       3000
+  }
 
 };
